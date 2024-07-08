@@ -1,0 +1,120 @@
+/* Styles for the main container */
+.container{
+    width: 550px;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg,#17161c 0%, #41367d 100%);
+    background: linear-gradient(rgb(32, 28, 28), rgb(124, 180, 221));
+    /* SHADOW TO THE CONTAINER */
+    filter: drop-shadow(10px 10px 15px black);   
+}
+
+/* Styles for the top bar */
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 60px;
+    /* SEARCH BAR SHADOW */
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+/* Styles for input elements within the top bar */
+.top-bar input{
+    display: flex;
+    width: 280px;
+    height: 68px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: #626262;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* Styles for the search icon */
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 68px;
+    height: 68px;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Styles for the weather image */
+.weather-image{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(10px 10px 15px rgb(249, 249, 249));
+}
+
+/* Styles for the weather temperature */
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 200;
+    font-weight: bolder;
+    filter: drop-shadow(1px 1px 2px black);  
+}
+
+/* Styles for the weather location */
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    font-weight: bold; 
+    filter: drop-shadow(1px 1px 2px black); 
+}
+
+
+/* Styles for the data container */
+.data-container{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    font-weight: bold; 
+}
+
+/* Styles for elements within the data container */
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+/* Styles for data elements */
+.data{
+    font-size: 35px;
+    font-weight: 200;
+    font-weight: bold;
+}
+
+/* Styles for text elements */
+.text{
+    font-size: 20px;
+    font-weight: 200;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+/* Styles for icons */
+.icon{
+    margin-top: 10px;
+   padding: 1px;
+   filter: drop-shadow(1px 1px 2px rgb(144, 143, 143));
+    
+}

@@ -1,0 +1,13 @@
+/* -------- TAILWIND ------ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+.swiper-pagination-bullet{
+  @apply bg-white;
+}
